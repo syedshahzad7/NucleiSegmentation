@@ -1,0 +1,10 @@
+dill>=0.3.7
+from-root==1.0.2
+notebook==7.0.0a7
+gdown
+flask-cors
+flask
+ultralytics==8.0.28
+typing-extensions>=3.7.4
+joblib>=0.11
+#-e . 
