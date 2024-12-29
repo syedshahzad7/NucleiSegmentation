@@ -10,3 +10,20 @@ DATA_INGESTION_FEATURE_STORE_DIR: str = "feature_store"     #A string constant t
 
 
 DATA_DOWNLOAD_URL: str = "https://drive.google.com/file/d/1aPcVcFm0obYkgLIDEs0M7chphP-n_wG9/view?usp=drive_link"            #URL pointing to the location from where the raw dataset can be downloaded.
+
+
+
+
+
+
+
+
+'''
+Constant variables related to or used in the data_validation component and also throughout the project
+'''
+
+DATA_VALIDATION_DIR_NAME: str = "data_validation"
+
+DATA_VALIDATION_STATUS_FILE = 'status.txt'
+
+DATA_VALIDATION_ALL_REQUIRED_FILES = ["train", "valid", "test", "data.yaml"]
