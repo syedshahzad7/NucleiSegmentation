@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Nuclei']
+
+roboflow:
+  workspace: syed-shahzad-abdul-wajid-qds9z
+  project: nucleisegmentation
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/syed-shahzad-abdul-wajid-qds9z/nucleisegmentation/dataset/1
