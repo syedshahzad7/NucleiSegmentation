@@ -23,3 +23,13 @@ means the artifacts/data_ingestion/feature_store has all the files required for 
 @dataclass
 class DataValidationArtifact:
     validation_status:bool
+
+
+
+'''
+Output of the model trainer process: Path where the trained model is saved: artifact/model_trainer/best.pt
+'''
+
+@dataclass
+class ModelTrainerArtifact:
+    trained_model_file_path: str 
