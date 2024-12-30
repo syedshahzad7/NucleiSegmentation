@@ -36,7 +36,7 @@ class ModelTrainer:
             os.system("rm -rf data.yaml")
             os.system("rm -rf runs")
 
-            model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path = " artifacts/model_trainer/best.pt")
+            model_trainer_artifact = ModelTrainerArtifact(trained_model_file_path = "artifacts/model_trainer/best.pt")
 
             logging.info("Exited the initiate_model_trainer method of ModelTrainer class")
             logging.info(f"Model Trainer Artifact: {model_trainer_artifact}")
