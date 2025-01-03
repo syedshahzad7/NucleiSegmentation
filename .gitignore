@@ -173,3 +173,4 @@ cython_debug/
 .pypirc
 
 Nucleiseg-azure.txt
+annotated_dataset/
